@@ -1,5 +1,6 @@
 .box1 {
-  display: none;
+  /*display: none;*/
+  /*下から上にの場合は消す*/
   background-color: #FF0000;
   height: 200px;
   width: 200px;
