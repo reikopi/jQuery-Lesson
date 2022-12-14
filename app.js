@@ -17,4 +17,7 @@ $(function(){
   $('.box2').mouseover(function(){
     $('.box2').css({'background-color': '#0000FF'});
   });
+  $('.box2').mouseout(function(){
+    $('.box2').css({'background-color':'#FF0000'});
+  });
 });
