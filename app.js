@@ -22,11 +22,22 @@
 //   });
 // });
 
+// クラス属性でマウスオーバーとアウトをする
+// $(function(){
+//   $('.box2').mouseover(function(){
+//     $('.box2').addClass('box2-ext');
+//   });
+//   $('.box2').mouseout(function(){
+//     $('.box2').removeClass('box2-ext');
+//   });
+// });
+
+// マウスクリックイベントを作成
 $(function(){
-   $('.box2').mouseover(function(){
-    $('.box2').addClass('box2-ext');
-   });
-   $('.box2').mouseout(function(){
+  $('.box2').on('click',function(){
+    $('.box2').addClass('box2-ext')
+  });
+  $('.box2').mouseout(function(){
     $('.box2').removeClass('box2-ext');
-   });
+  });
 });
